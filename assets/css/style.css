@@ -15,11 +15,11 @@ body {
 
 a {
   text-decoration: none;
-  color: #7cc576;
+  color: #8926c2;
 }
 
 a:hover {
-  color: #9ed49a;
+  color: #9544bb;
   text-decoration: none;
 }
 
@@ -30,6 +30,7 @@ h4,
 h5,
 h6 {
   font-family: "Montserrat", sans-serif;
+  color: #fff;
 }
 
 /*--------------------------------------------------------------
@@ -42,7 +43,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #7cc576;
+  background: #ffffff;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -51,13 +52,13 @@ h6 {
 
 .back-to-top i {
   font-size: 28px;
-  color: #fff;
+  color: rgb(0, 0, 0);
   line-height: 0;
 }
 
 .back-to-top:hover {
-  background: #97d193;
-  color: #fff;
+  background: #ffffff;
+  color: rgb(0, 0, 0);
 }
 
 .back-to-top.active {
@@ -82,7 +83,7 @@ h6 {
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
-  background: rgb(10, 10, 10);
+  background: rgb(0, 0, 0);
   box-shadow: 0 4px 10px -3px hsla(0deg, 0%, 75%, 0.5);
 }
 
@@ -450,7 +451,7 @@ section {
   text-transform: uppercase;
   margin-bottom: 15px;
   padding-bottom: 0;
-  color: #151515;
+  color: #ffffff;
 }
 
 .section-title p {
@@ -461,6 +462,9 @@ section {
 /*--------------------------------------------------------------
 # About Us
 --------------------------------------------------------------*/
+.about {
+background-color: rgb(0, 0, 0);
+}
 .about .image {
   padding: 20px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
@@ -495,6 +499,10 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+.services {
+background-color: #000000;
+}
+
 .services .icon-box h4 {
   font-size: 20px;
   font-weight: 700;
@@ -504,7 +512,7 @@ section {
 .services .icon-box i {
   font-size: 48px;
   float: left;
-  color: #7cc576;
+  color: #ffab0e;
 }
 
 .services .icon-box p {
@@ -591,7 +599,7 @@ section {
 # Why Us
 --------------------------------------------------------------*/
 .why-us {
-  background: whitesmoke;
+  background: rgb(0, 0, 0);
   padding: 0;
 }
 
@@ -655,7 +663,7 @@ section {
 }
 
 .why-us .accordion-list span {
-  color: #7cc576;
+  color: #000000;
   font-weight: 600;
   font-size: 18px;
   padding-right: 10px;
@@ -682,7 +690,7 @@ section {
 }
 
 .why-us .accordion-list a.collapsed:hover {
-  color: #7cc576;
+  color: #000000;
 }
 
 .why-us .accordion-list a.collapsed .icon-show {
@@ -696,7 +704,7 @@ section {
 .why-us .play-btn {
   width: 94px;
   height: 94px;
-  background: radial-gradient(#7cc576 50%, rgba(124, 197, 118, 0.4) 52%);
+  background: radial-gradient(#b8b8b8 50%, rgba(168, 168, 168, 0.4) 52%);
   border-radius: 50%;
   display: block;
   position: absolute;
@@ -812,6 +820,9 @@ section {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+.portfolio {
+background: #000000;
+}
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
@@ -840,8 +851,8 @@ section {
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-  background: #7cc576;
-  color: #fff;
+  background: #000000;
+  color: #ffffff;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -941,7 +952,7 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  color: #7cc576;
+  color: #1740f8;
 }
 
 .portfolio .portfolio-wrap:hover::before {
@@ -1361,6 +1372,9 @@ section {
 /*--------------------------------------------------------------
 # Frequently Asked Questions
 --------------------------------------------------------------*/
+.faq {
+ background-color: #000000;
+}
 .faq .faq-list {
   padding: 0;
   list-style: none;
@@ -1375,7 +1389,7 @@ section {
 .faq .faq-list a {
   display: block;
   position: relative;
-  font-family: #7cc576;
+  font-family: #ffc7c7;
   font-size: 18px;
   line-height: 24px;
   font-weight: 400;
@@ -1400,11 +1414,11 @@ section {
 }
 
 .faq .faq-list a.collapsed {
-  color: #343a40;
+  color: #707880;
 }
 
 .faq .faq-list a.collapsed:hover {
-  color: #7cc576;
+  color: #6854d8;
 }
 
 .faq .faq-list a.collapsed .icon-show {
@@ -1618,7 +1632,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: url("../img/footer-bg.jpg") center center no-repeat;
+  background: url("../img/footer-bgg.jpg") center center no-repeat;
   color: #fff;
   font-size: 14px;
   position: relative;
@@ -1670,11 +1684,11 @@ section {
 }
 
 #footer .footer-top .footer-newsletter form {
-  background: #fff;
+  background: #161616;
   padding: 6px 10px;
   position: relative;
   border-radius: 50px;
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 2px 15px rgba(146, 146, 146, 0.1);
   text-align: left;
 }
 
@@ -1711,8 +1725,8 @@ section {
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #7cc576;
-  color: #fff;
+  background: #ffffff;
+  color: #000000;
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
@@ -1724,7 +1738,7 @@ section {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #5ab652;
+  background: #1b85ff;
   color: #fff;
   text-decoration: none;
 }
