@@ -206,7 +206,7 @@ h6 {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  color: #7cc576;
+  color: #ffffff;
 }
 
 .navbar .dropdown:hover>ul {
@@ -305,7 +305,7 @@ h6 {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #7cc576;
+  color: #ffffff;
 }
 
 .navbar-mobile .getstarted,
@@ -340,7 +340,7 @@ h6 {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover>a {
-  color: #7cc576;
+  color: #ffffff;
 }
 
 .navbar-mobile .dropdown>.dropdown-active {
@@ -500,7 +500,7 @@ background-color: rgb(0, 0, 0);
 # Services
 --------------------------------------------------------------*/
 .services {
-background-color: #000000;
+  background: #000000;
 }
 
 .services .icon-box h4 {
@@ -512,7 +512,7 @@ background-color: #000000;
 .services .icon-box i {
   font-size: 48px;
   float: left;
-  color: #6422ff;
+  color: #1444e0;
 }
 
 .services .icon-box p {
