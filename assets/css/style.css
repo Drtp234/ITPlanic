@@ -16,11 +16,11 @@ body {
 
 a {
   text-decoration: none;
-  color: #06fd44; 
+  color: #f91c04; 
 }
 
 a:hover {
-  color: #02c031;
+  color: #f91c049f;
   text-decoration: none;
 }
 
@@ -32,6 +32,18 @@ h5,
 h6 {
   font-family: "Montserrat", sans-serif;
   color: #fff;
+}
+/* Scroll Personalizado */
+
+body::-webkit-scrollbar {
+	width: 10px;
+	background: rgba(0, 0, 0, 0);
+}
+
+body::-webkit-scrollbar-thumb {
+	background: rgba(255, 255, 255, 0.322);
+	border-radius: 10px;
+	border-right: 2px solid rgba(0, 0, 0, 0);
 }
 
 /*--------------------------------------------------------------
@@ -58,7 +70,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #ffffff;
+  background: rgba(255, 255, 255, 0.767);
   color: rgb(0, 0, 0);
 }
 
@@ -495,7 +507,7 @@ background-color: rgb(0, 0, 0);
 .about .content ul i {
   font-size: 24px;
   padding: 2px 6px 0 0;
-  color: #06fd44;
+  color: #f91c04;
 }
 
 .about .content p:last-child {
@@ -517,7 +529,7 @@ background-color: rgb(0, 0, 0);
 .services .icon-box i {
   font-size: 48px;
   float: left;
-  color: #06fd44;
+  color: #f91c04;
 }
 
 .services .icon-box p {
@@ -599,7 +611,6 @@ background-color: rgb(0, 0, 0);
     opacity: 1;
   }
 }
-
 /*--------------------------------------------------------------
 # Why Us
 --------------------------------------------------------------*/
@@ -625,7 +636,7 @@ background-color: rgb(0, 0, 0);
 
 .why-us .content p {
   font-size: 15px;
-  color: #959595;
+  color: #7c7b7b;
 }
 
 .why-us .video-box {
@@ -651,7 +662,7 @@ background-color: rgb(0, 0, 0);
 
 .why-us .accordion-list li {
   padding: 20px;
-  background: #fff;
+  background: #0a0a0a;
   border-radius: 4px;
 }
 
@@ -668,7 +679,7 @@ background-color: rgb(0, 0, 0);
 }
 
 .why-us .accordion-list span {
-  color: #000000;
+  color: #ffffff;
   font-weight: 600;
   font-size: 18px;
   padding-right: 10px;
@@ -691,11 +702,11 @@ background-color: rgb(0, 0, 0);
 }
 
 .why-us .accordion-list a.collapsed {
-  color: #343a40;
+  color: #c4ced4;
 }
 
 .why-us .accordion-list a.collapsed:hover {
-  color: #000000;
+  color: #868c91;
 }
 
 .why-us .accordion-list a.collapsed .icon-show {
@@ -957,7 +968,7 @@ background: #000000;
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  color: #06fd44;
+  color: #f91c04;
 }
 
 .portfolio .portfolio-wrap:hover::before {
@@ -1423,7 +1434,7 @@ background: #000000;
 }
 
 .faq .faq-list a.collapsed:hover {
-  color:  #06fd44;
+  color:  #f91c04;
 }
 
 .faq .faq-list a.collapsed .icon-show {
@@ -1743,7 +1754,7 @@ background: #000000;
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #06fd44;
+  background: #f91c04;
   color: #fff;
   text-decoration: none;
 }
