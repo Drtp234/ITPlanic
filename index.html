@@ -61,11 +61,11 @@
           <li><a class="nav-link scrollto" href="#about">Saber más</a></li>
           <li><a class="nav-link scrollto" href="#services">Planificación</a></li>
           <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li>
-          <li class="dropdown"><a href="#"><span>Año</span> <i class="bi bi-chevron-down"></i></a>
+          <li class="dropdown" hiddeb><a href="#"><span>Año</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="5to.html">5TO INF</a></li>
             </ul>
-          </li>
+          </li hidden>
           <li><a class="nav-link scrollto" href="#footer">Redes</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
@@ -121,9 +121,9 @@
           <p>se actualiza cada semana</p>
           <p style="color: rgb(63, 63, 63);"><small><small>(usalo de referencia)</small></small></p>
         </div>
-
+        
         <div class="row">
-          <div class="col-lg-6 order-2 order-lg-1">
+          <div class="col-lg-6 order-2 order-lg-1 filter-mier">
             <div class="icon-box mt-5 mt-lg-0" data-aos="fade-up" >
               <i class="bx bx-shield-quarter"></i>
               <h4>C.R.P</h4>
@@ -162,12 +162,12 @@
             <div class="icon-box mt-5" data-aos="fade-up" data-aos-delay="300" >
               <i class="bx bx-map"></i>
               <h4>Turismo</h4>
-              <p>Taller o prueba sobre la última clase vista. <small style="color: rgb(92, 92, 92);">(viernes)</small></p>
+              <p>Entrega del taller y trabajo de investigación. <small style="color: rgb(92, 92, 92);">(viernes)</small></p>
             </div>
             <div class="icon-box mt-5" data-aos="fade-up" data-aos-delay="300" >
               <i class="bx bx-book"></i>
               <h4>Inglés</h4>
-              <p>Incio de las exposiciones sobre "The news that most bother you". <small style="color: rgb(92, 92, 92);">(viernes)</small></p>
+              <p>Incio de las exposiciones sobre "The news that most bother you". <small style="color: rgb(92, 92, 92);">(lunes)</small></p>
             </div>
           </div>
           <div class="image col-lg-6 order-1 order-lg-2" style='background-image: url("assets/img/services.jpg");' data-aos="fade-left" data-aos-delay="100"></div>
@@ -197,7 +197,7 @@
                   <a data-bs-toggle="collapse" class="collapsed" data-bs-target="#accordion-list-1"><span>01</span> Números complejos <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
                   <div id="accordion-list-1" class="collapse" data-bs-parent=".accordion-list">
                     <br>
-                    <iframe width="420" height="238" src="https://www.youtube.com/embed/Qv_bvmJJfV0" title="Números imaginarios | Introducción y potencias de &quot;i&quot;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <iframe src="https://www.youtube.com/embed/Qv_bvmJJfV0" title="Números imaginarios | Introducción y potencias de &quot;i&quot;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                   </div>
                 </li>
 
@@ -205,7 +205,7 @@
                   <a data-bs-toggle="collapse" data-bs-target="#accordion-list-2" class="collapsed"><span>02</span> Excel <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
                   <div id="accordion-list-2" class="collapse" data-bs-parent=".accordion-list">
                     <br>
-                    <iframe width="420" height="238" src="https://www.youtube.com/embed/aKqDjxQ4IUA" title="🚀 Súper Curso de Excel 2023 - Aprende [GRATIS] de Una Vez por Todas" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></span>
+                    <iframe  src="https://www.youtube.com/embed/aKqDjxQ4IUA" title="🚀 Súper Curso de Excel 2023 - Aprende [GRATIS] de Una Vez por Todas" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></span>
                   </div>
                 </li>
 
@@ -213,7 +213,7 @@
                   <a data-bs-toggle="collapse" data-bs-target="#accordion-list-3" class="collapsed"><span>03</span> ¿Para qué sirve la ética? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
                   <div id="accordion-list-3" class="collapse" data-bs-parent=".accordion-list">
                     <br>
-                    <iframe width="420" height="238" src="https://www.youtube.com/embed/HOY0CSVAA4w" title="Versión Completa. ¿Para qué sirve la ética? Adela Cortina, filósofa" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <iframe src="https://www.youtube.com/embed/HOY0CSVAA4w" title="Versión Completa. ¿Para qué sirve la ética? Adela Cortina, filósofa" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                   </div>
                 </li>
 
@@ -244,8 +244,8 @@
             <ul id="portfolio-flters" hidden>
               <li data-filter="*" class="filter-active">All</li>
               <li data-filter=".filter-app">Horario</li>
-              <li data-filter=".filter-card" hidden>Card</li>
-              <li data-filter=".filter-web" hidden>Planificación</li>
+              <li data-filter=".filter-card" >Card</li>
+              <li data-filter=".filter-web" >Planificación</li>
             </ul>
           </div>
         </div>
