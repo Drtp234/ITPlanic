@@ -16,11 +16,11 @@ body {
 
 a {
   text-decoration: none;
-  color: #f91c04; 
+  color: #7204f9; 
 }
 
 a:hover {
-  color: #f91c049f;
+  color: #7204f9a8;
   text-decoration: none;
 }
 
@@ -507,7 +507,7 @@ background-color: rgb(0, 0, 0);
 .about .content ul i {
   font-size: 24px;
   padding: 2px 6px 0 0;
-  color: #f91c04;
+  color: #7204f9;
 }
 
 .about .content p:last-child {
@@ -529,7 +529,7 @@ background-color: rgb(0, 0, 0);
 .services .icon-box i {
   font-size: 48px;
   float: left;
-  color: #f91c04;
+  color: #7204f9;
 }
 
 .services .icon-box p {
@@ -658,7 +658,7 @@ background-color: rgb(0, 0, 0);
 
 .why-us .accordion-list iframe {
   width: 100%;
-  height: 25vh;
+  height: 27vh;
 }
 
 .why-us .accordion-list li+li {
@@ -973,7 +973,7 @@ background: #000000;
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  color: #f91c04;
+  color: #7204f9;
 }
 
 .portfolio .portfolio-wrap:hover::before {
@@ -1439,7 +1439,7 @@ background: #000000;
 }
 
 .faq .faq-list a.collapsed:hover {
-  color:  #f91c04;
+  color:  #7204f9;
 }
 
 .faq .faq-list a.collapsed .icon-show {
@@ -1759,7 +1759,7 @@ background: #000000;
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #f91c04;
+  background: #7204f9;
   color: #fff;
   text-decoration: none;
 }
