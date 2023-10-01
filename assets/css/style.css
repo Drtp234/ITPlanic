@@ -16,11 +16,11 @@ body {
 
 a {
   text-decoration: none;
-  color: #7204f9; 
+  color: #f9c004; 
 }
 
 a:hover {
-  color: #7204f9a8;
+  color: #f9c004a8;
   text-decoration: none;
 }
 
@@ -118,7 +118,7 @@ body::-webkit-scrollbar-thumb {
 #header .logo img {
   padding: 0;
   margin: 0;
-  max-height: 40px;
+  max-height: 60px;
 }
 
 @media (max-width: 992px) {
@@ -366,7 +366,7 @@ body::-webkit-scrollbar-thumb {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg");
+  background: url("../img/hero-bg.webp");
   position: relative;
 }
 
@@ -507,7 +507,7 @@ background-color: rgb(0, 0, 0);
 .about .content ul i {
   font-size: 24px;
   padding: 2px 6px 0 0;
-  color: #7204f9;
+  color: #f9c004;
 }
 
 .about .content p:last-child {
@@ -529,7 +529,7 @@ background-color: rgb(0, 0, 0);
 .services .icon-box i {
   font-size: 48px;
   float: left;
-  color: #7204f9;
+  color: #f9c004;
 }
 
 .services .icon-box p {
@@ -973,7 +973,7 @@ background: #000000;
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  color: #7204f9;
+  color: #f9c004;
 }
 
 .portfolio .portfolio-wrap:hover::before {
@@ -1439,7 +1439,7 @@ background: #000000;
 }
 
 .faq .faq-list a.collapsed:hover {
-  color:  #7204f9;
+  color:  #f9c004;
 }
 
 .faq .faq-list a.collapsed .icon-show {
@@ -1653,7 +1653,7 @@ background: #000000;
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: url("../img/hero-bg.jpg") center center no-repeat;
+  background: url("../img/hero-bg.webp") center center no-repeat;
   color: #fff;
   font-size: 14px;
   position: relative;
