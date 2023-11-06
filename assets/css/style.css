@@ -16,11 +16,11 @@ body {
 
 a {
   text-decoration: none;
-  color: #f9c004; 
+  color: #f95e04; 
 }
 
 a:hover {
-  color: #f9c004a8;
+  color: #a73d00;
   text-decoration: none;
 }
 
@@ -507,7 +507,7 @@ background-color: rgb(0, 0, 0);
 .about .content ul i {
   font-size: 24px;
   padding: 2px 6px 0 0;
-  color: #f9c004;
+  color: #f95e04;
 }
 
 .about .content p:last-child {
@@ -529,7 +529,7 @@ background-color: rgb(0, 0, 0);
 .services .icon-box i {
   font-size: 48px;
   float: left;
-  color: #f9c004;
+  color: #f95e04;
 }
 
 .services .icon-box p {
@@ -973,7 +973,7 @@ background: #000000;
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  color: #f9c004;
+  color: #f95e04;
 }
 
 .portfolio .portfolio-wrap:hover::before {
@@ -1439,7 +1439,7 @@ background: #000000;
 }
 
 .faq .faq-list a.collapsed:hover {
-  color:  #f9c004;
+  color:  #f95e04;
 }
 
 .faq .faq-list a.collapsed .icon-show {
@@ -1780,4 +1780,14 @@ background: #000000;
   text-align: center;
   font-size: 13px;
   padding-top: 5px;
+}
+/*--------------------------------------------------------------
+# Radius
+--------------------------------------------------------------*/
+.radius {
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
